@@ -1,12 +1,4 @@
-/* Color Theme  
- #53616B 
- #1B2C38 
- #181C1F - Base
- #33536B
- #8EA6B8
-*/
 
-/* ---------------Box Sizing----------------- */
 
 html {
     box-sizing: border-box;
@@ -84,7 +76,31 @@ html {
     margin: 20px 0;
     position: relative;
   }
-  
+    
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #181c1f;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #245579;
+}
   header.primary h1 a {
     color: #ffffff;
     background-image: url("https://assets.codepen.io/7248/logo-2.png");
